@@ -1,4 +1,4 @@
-const { crearArchivo, listar } = require('C:/Users/oscar/OneDrive/Desktop/node/multiplicar/multiplicar');
+const { crearArchivo, listar } = require('./multiplicar/multiplicar');
 const argv = require('C:/Users/oscar/OneDrive/Desktop/node/03-bases-node/config/yargs').argv;
 let comando = argv._[0];
 var colors = require('colors');
